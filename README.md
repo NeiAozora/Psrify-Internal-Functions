@@ -1,3 +1,5 @@
+# Warning! still under heavy development
+
 # Psrify Internal Functions
 
 Welcome to **PsrifyInternalFunctions**—the tool for those who are a perfectionist with a penchant for PSR standards or just someone who prefers camelCase over snake_case, or someone who with OCD and just can’t stand the sight of snake_case lurking in their code. If you’re the type of developer who feels that deep, unspeakable urge to tidy up your codebase—especially when it comes to PHP's old legacy naming conventions—this library is your new best friend.
@@ -21,12 +23,15 @@ $fileContents = file_get_contents($filePath);
 $fileContents = fileGetContents($filePath);
 ```
 
+
+
+# ! WIP, DO NOT USE IT
 ## Installation
 
 Install **PsrifyInternalFunctions** via Composer:
 
 ```bash
-composer require your-username/psrify-internal-functions
+composer require neiaozora/psrify-internal-functions
 ```
 
 ## Usage
