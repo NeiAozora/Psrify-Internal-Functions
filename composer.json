@@ -1,0 +1,23 @@
+{
+    "name": "neiaozora/psrify-internal-functions",
+    "description": "A tool to convert PHP internal functions from snake_case to camelCase for PSR-12 conformity.",
+    "type": "library",
+    "version": "0.1",
+    "authors": [
+      {
+        "name": "Ahmad Fauzan",
+        "email": "noxindocraft@gmail.com",
+        "role": "Developer"
+      }
+    ],
+    "license": "MIT",
+    "autoload": {
+      "files": [
+        "src/functions.php"
+      ]
+    },
+    "require": {
+      "php": ">=7.4"
+    }
+  }
+  
